@@ -1,4 +1,4 @@
 function saludar(){
-    alert("HOLA! BIENVENID@ ")
+    alert("DiseñadorWeb Recomendado. ")
 }
 saludar()
