@@ -409,7 +409,7 @@
 						<!-- Header Block -->
 						<div class="col-md-12">
 							<div class="header-box mb-50">
-								<h3>Testimonios</h3>
+								<h3>Comentarios</h3>
 							</div>
 						</div>
 						
@@ -420,7 +420,7 @@
 								<div class="media">
 									<img src="img/testimonials/testimonial-1.jpg" alt="">
 									<div class="content">
-										<h4>John Doe</h4>
+										<h4>John </h4>
 										<p>Desarrolador web</p>
 									</div>
 									<ul class="rating">
@@ -433,10 +433,7 @@
 								</div>
 								<div class="comment pt-30">
 									<p>
-										Curabitur eleifend tempor gnceleris eget placeratvel phasellus eget
-										sem just metup consequat gestas facilisis eleifend posure tempor
-										metus sem just metup consequat gestas facilisis eleifend posures
-										temporureture.
+										A lo que con mucho trabajo se adquiere + se ama 
 									</p>
 								</div>
 							</div>
@@ -446,8 +443,8 @@
 								<div class="media">
 									<img src="img/testimonials/testimonial-2.jpg" alt="">
 									<div class="content">
-										<h4>Alex Doe</h4>
-										<p>UI/UX Designer</p>
+										<h4>Alex </h4>
+										<p>UI/UX Diseñador</p>
 									</div>
 									<ul class="rating">
 										<li><i class="far fa-star"></i></li>
@@ -459,10 +456,7 @@
 								</div>
 								<div class="comment pt-30">
 									<p>
-										Curabitur eleifend tempor gnceleris eget placeratvel phasellus eget
-										sem just metup consequat gestas facilisis eleifend posure tempor
-										metus sem just metup consequat gestas facilisis eleifend posures
-										temporureture.
+										En muchas cosas de la vida la laboriosidad puede conseguir + que el genio
 									</p>
 								</div>
 							</div>
@@ -472,8 +466,8 @@
 								<div class="media">
 									<img src="img/testimonials/testimonial-3.jpg" alt="">
 									<div class="content">
-										<h4>David Doe</h4>
-										<p>UI/UX Designer</p>
+										<h4>David </h4>
+										<p>UI/UX Software</p>
 									</div>
 									<ul class="rating">
 										<li><i class="far fa-star"></i></li>
@@ -484,10 +478,7 @@
 								</div>
 								<div class="comment pt-30">
 									<p>
-										Curabitur eleifend tempor gnceleris eget placeratvel phasellus eget
-										sem just metup consequat gestas facilisis eleifend posure tempor
-										metus sem just metup consequat gestas facilisis eleifend posures
-										temporureture.
+										No importa la lentitud con la que avances, siempre y cuando no te detengas .
 									</p>
 								</div>
 							</div>
@@ -772,7 +763,7 @@
 						<!-- Header Block -->
 						<div class="col-md-12">
 							<div class="header-box mb-50">
-								<h3>My Working Process</h3>
+								<h3>My proseso de trabajo</h3>
 							</div>
 						</div>
 					</div>
@@ -784,15 +775,15 @@
                     			<!-- Working Process Item-->
                           	 	<div class="single-wp width-sm process-1">
 									<p class="wp-step">01</p>
-									<h4 class="wp-title">Discuss idea</h4>
-									<p>I could describe these conceptions, also impress upon paper all that is living.</p>
+									<h4 class="wp-title">Ideales</h4>
+									<p>Describo estas concepciones tambien.</p>
 								</div>
 
 								<!-- Working Process Item-->
 								<div class="single-wp width-sm process-2">
 									<p class="wp-step">02</p>
-									<h4 class="wp-title">Creative concept</h4>
-									<p>I could describe these conceptions, also impress upon paper all that is living.</p>
+									<h4 class="wp-title">Conceptos creativos</h4>
+									<p>Aquel que sabe donde ir tiene que volver .</p>
 								</div>
 							</div>
 					
@@ -1171,6 +1162,36 @@
   		</div>
 		</div>
 		</div>
+		<!-- Messenger Plugin de chat Code -->
+		<div id="fb-root"></div>
+
+		<!-- Your Plugin de chat code -->
+		<div id="fb-customer-chat" class="fb-customerchat">
+		</div>
+	
+		<script>
+		  var chatbox = document.getElementById('fb-customer-chat');
+		  chatbox.setAttribute("page_id", "101899972364166");
+		  chatbox.setAttribute("attribution", "biz_inbox");
+		</script>
+	
+		<!-- Your SDK code -->
+		<script>
+		  window.fbAsyncInit = function() {
+			FB.init({
+			  xfbml            : true,
+			  version          : 'v13.0'
+			});
+		  };
+	
+		  (function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		  }(document, 'script', 'facebook-jssdk'));
+		</script>
 		
 		<!-- All Script -->
 		<script src="js/jquery.min.js"></script>
